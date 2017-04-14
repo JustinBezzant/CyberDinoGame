@@ -258,7 +258,7 @@ public class GameCharacter : MonoBehaviour {
                 removedWeaponList.Remove(wpn);
             } else {
                 // Create a new copy of the weapon passed in.
-                wpn = weaponsGroupObject.AddCopyOfScript(weapon);
+                wpn = weaponsGroupObject.AddCopyOfComponent(weapon);
             }
             // Configure the weapon to have the correct owner.
             wpn.gameCharacter = this;

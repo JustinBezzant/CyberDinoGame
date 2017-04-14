@@ -11,19 +11,20 @@ using System.Reflection;
 /// Use: "gameObject.AddCopyOfScript(scriptToCopy);" and "scriptComponent.CopyDataFrom(otherScriptComponent);"
 /// </summary>
 public static class ScriptCopy {
+
     /// <summary>
-    /// Creates a copy of a script component that is found on another game object. Unity does not support this (at runtime) by default and it may not work right with very complex scripts.<para></para>
+    /// Creates a copy of a script component that is found on another game object. Unity does not support this (at runtime) by default and it may not work right with very complex components.<para></para>
     /// Does nothing and returns null if the script passed in was null.
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <param name="gameObject"></param>
-    /// <param name="script"></param>
+    /// <param name="component"></param>
     /// <returns></returns>
-    public static T AddCopyOfScript<T>(this GameObject gameObject, T script) where T : MonoBehaviour {
-        if (script != null) {
-            T copy = gameObject.AddComponent(script.GetType()) as T;
+    public static T AddCopyOfComponent<T>(this GameObject gameObject, T component) where T : Component {
+        if (component != null) {
+            T copy = gameObject.AddComponent(component.GetType()) as T;
 
-            copy.CopyDataFrom(script);
+            copy.CopyDataFrom(component);
 
             return copy;
         } else {
@@ -32,43 +33,52 @@ public static class ScriptCopy {
     }
 
     /// <summary>
-    /// Copies all the data from another script component of the same type into this component.
+    /// Copies all the data from another component of the same type into this component.
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    /// <param name="script"></param>
+    /// <param name="component"></param>
     /// <param name="other"></param>
-    public static void CopyDataFrom<T>(this T script, T other) where T : MonoBehaviour {
+    public static void CopyDataFrom<T>(this T component, T other) where T : Component {
         // Iterate twice, first filling out all the fields then the properties because filling out the properites may have secondary effects
         // that depend on all the fields being filled out.
 
         // Get all the fields and properties that have been declared only in that subtype.
         BindingFlags bindingFlags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.DeclaredOnly;
 
-        Type type = script.GetType();
+        Type componentType = component.GetType();
 
-        if (type != other.GetType()) {
-            Debug.LogError("Type mismatch between the two scripts in CopyDataFrom, this operation is not supported between two scripts with a different type!"
+        if (componentType != other.GetType()) {
+            Debug.LogError("Type mismatch between the two components in CopyDataFrom, this operation is not supported between two components with a different type!"
                 + "\n Thus, nothing has happened. Double check your scripts.");
             return;
         }
 
-        //Work our way up the heiarchy until we hit MonoBehaviour, then stop.
-        while (type != typeof(MonoBehaviour)) {
+        List<Type> heiarchy = new List<Type>();
+        Type t = componentType;
+        while (t != typeof(MonoBehaviour) && t != typeof(Component)) {
+            heiarchy.Add(t);
+            t = t.BaseType;
+        }
+        heiarchy.Reverse();
+
+
+        //Work our way down the heiarchy, first setting fields.
+        foreach (Type type in heiarchy) {
             FieldInfo[] fieldInfos = type.GetFields(bindingFlags);
             foreach (FieldInfo fieldInfo in fieldInfos) {
-                fieldInfo.SetValue(script, fieldInfo.GetValue(other));
+                fieldInfo.SetValue(component, fieldInfo.GetValue(other));
             }
-            type = type.BaseType;
         }
 
         // Iterate through the properties of each type.
-        type = script.GetType();
-        while (type != typeof(MonoBehaviour)) {
+        foreach (Type type in heiarchy) {
             PropertyInfo[] propInfos = type.GetProperties(bindingFlags);
             foreach (PropertyInfo propInfo in propInfos) {
-                if (propInfo.CanWrite) {
+                // Don't copy any attributes that are marked as Obsolete or else errors will happen.
+                Attribute obsolete = Attribute.GetCustomAttribute(propInfo, typeof(ObsoleteAttribute));
+                if (propInfo.CanWrite && obsolete == null) {
                     try {
-                        propInfo.SetValue(script, propInfo.GetValue(other, null), null);
+                        propInfo.SetValue(component, propInfo.GetValue(other, null), null);
                     } catch (Exception e) {
                         Debug.LogWarning("Exception happened when copying Type [" + type.Name + "] Property [" + propInfo.Name + "]"
                             + "\n[" + e.GetType().Name + "]: " + e.Message
@@ -76,7 +86,6 @@ public static class ScriptCopy {
                     }
                 }
             }
-            type = type.BaseType;
         }
     }
 }

@@ -72,6 +72,8 @@ public class MapManager : MonoBehaviour {
     private PlayerData SpawnPlayer(int playerNumber) {
         // First create the empty object that will contain all the player dino objects.
         GameObject playerGroupObject = new GameObject("Player " + playerNumber);
+        //Disable the group object so that none of the things we add will start in an enabled state.
+        playerGroupObject.SetActive(false);
         Transform playerGroupTransform = playerGroupObject.transform;
         playerGroupTransform.parent = allPlayersGroupTransform;
 
@@ -125,10 +127,11 @@ public class MapManager : MonoBehaviour {
         dinoUI.playerCamera = playerCamera;
         dinoUI.playerNumber = playerNumber;
 
-        // Enable everything here. Prefabs are disabled by default so they don't try to load things in before they're configured.
+        // Enable everything here. Enable the prefabs if they were disabled before.
         dinoObject.SetActive(true);
         cameraObject.SetActive(true);
         hudUIObject.SetActive(true);
+        playerGroupObject.SetActive(true);
 
         // Add PlayerData component to the player group object.
         PlayerData data = playerGroupObject.AddComponent<PlayerData>();
@@ -156,7 +159,7 @@ public class MapManager : MonoBehaviour {
 
         PlayerData viewerdata = players[playerViewer - 1];
 
-        // Create world UI object
+        // Create world UI object (it must start in a disabled state)
         GameObject worldUIObject = (GameObject)Instantiate(dinoWorldUIPrefab, data.dinoObject.transform);
         WorldDinoUI worldDinoUI = worldUIObject.GetComponent<WorldDinoUI>();
 
