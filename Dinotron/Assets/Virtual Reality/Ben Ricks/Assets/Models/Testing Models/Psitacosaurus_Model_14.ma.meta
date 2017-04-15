@@ -1,0 +1,1579 @@
+fileFormatVersion: 2
+guid: 1e718d85fea817d42af01c54e811fabf
+timeCreated: 1491941269
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armor_Plane
+    100002: back
+    100004: Basics
+    100006: bottom
+    100008: Chest_Mechanics
+    100010: Dinosaur_Eye1:Eye
+    100012: Dinosaur_Eye1:Eye_Blink_Iris_Ctrl
+    100014: Dinosaur_Eye1:Eye_Ctrl_Grp
+    100016: Dinosaur_Eye1:Eye_Move_Ctrl
+    100018: Dinosaur_Eye1:polySurface1
+    100020: Dinosaur_Eye1:polySurface2
+    100022: Dinosaur_Eye1:polySurface3
+    100024: Dinosaur_Eye1:polySurface4
+    100026: Dinosaur_Eye1:pSphere1
+    100028: Dinosaur_Eye1:pSphere4
+    100030: Dinosaur_Eye1:pSphere5
+    100032: Dinosaur_Eye1:pSphere6
+    100034: Dinosaur_Eye1:pSphere7
+    100036: Dinosaur_Eye:Eye
+    100038: Dinosaur_Eye:Eye_Blink_Iris_Ctrl
+    100040: Dinosaur_Eye:Eye_Ctrl_Grp
+    100042: Dinosaur_Eye:Eye_Move_Ctrl
+    100044: Dinosaur_Eye:polySurface1
+    100046: Dinosaur_Eye:polySurface2
+    100048: Dinosaur_Eye:polySurface3
+    100050: Dinosaur_Eye:polySurface4
+    100052: Dinosaur_Eye:pSphere1
+    100054: Dinosaur_Eye:pSphere4
+    100056: Dinosaur_Eye:pSphere5
+    100058: Dinosaur_Eye:pSphere6
+    100060: Dinosaur_Eye:pSphere7
+    100062: Gears:left
+    100064: Gears:pPipe6
+    100066: group1
+    100068: group1 1
+    100070: Head_Armor
+    100072: Head_Gears
+    100074: Head_Pipes
+    100076: Hip_Armor
+    100078: imagePlane1
+    100080: imagePlane2
+    100082: imagePlane3
+    100084: Internal_Head
+    100086: L_Ankle
+    100088: L_Ankle_Armor
+    100090: L_Arm_01
+    100092: L_Arm_02
+    100094: L_Arm_02 1
+    100096: L_Eye
+    100098: L_Foot
+    100100: L_Head_Armor
+    100102: L_Hip_Armor
+    100104: L_Leg
+    100106: L_Leg_01
+    100108: L_Leg_02
+    100110: L_Leg_03
+    100112: L_Leg_Armor_01
+    100114: L_Leg_Armor_02
+    100116: L_Toes
+    100118: left
+    100120: Lower_Jaw_Armor
+    100122: Main_Gear
+    100124: Mechanics_Plane
+    100126: Middle_Finger
+    100128: Middle_Finger 1
+    100130: Middle_Finger2
+    100132: Middle_Finger2 1
+    100134: Middle_Finger3
+    100136: Middle_Finger3 1
+    100138: Middle_Finger4
+    100140: Middle_Finger4 1
+    100142: Neck
+    100144: Neck01
+    100146: Neck02
+    100148: pCube1
+    100150: pCube10
+    100152: pCube11
+    100154: pCube12
+    100156: pCube12 1
+    100158: pCube13
+    100160: pCube13 1
+    100162: pCube14
+    100164: pCube14 1
+    100166: pCube18
+    100168: pCube18 1
+    100170: pCube19
+    100172: pCube19 1
+    100174: pCube2
+    100176: pCube20
+    100178: pCube20 1
+    100180: pCube21
+    100182: pCube21 1
+    100184: pCube22
+    100186: pCube22 1
+    100188: pCube23
+    100190: pCube23 1
+    100192: pCube24
+    100194: pCube24 1
+    100196: pCube25
+    100198: pCube25 1
+    100200: pCube26
+    100202: pCube26 1
+    100204: pCube27
+    100206: pCube27 1
+    100208: pCube28
+    100210: pCube28 1
+    100212: pCube3
+    100214: pCube30
+    100216: pCube30 1
+    100218: pCube30 2
+    100220: pCube30 3
+    100222: pCube30 4
+    100224: pCube30 5
+    100226: pCube30 6
+    100228: pCube30 7
+    100230: pCube31
+    100232: pCube31 1
+    100234: pCube32
+    100236: pCube32 1
+    100238: pCube32 2
+    100240: pCube32 3
+    100242: pCube32 4
+    100244: pCube32 5
+    100246: pCube32 6
+    100248: pCube32 7
+    100250: pCube33
+    100252: pCube33 1
+    100254: pCube33 2
+    100256: pCube33 3
+    100258: pCube33 4
+    100260: pCube33 5
+    100262: pCube33 6
+    100264: pCube33 7
+    100266: pCube34
+    100268: pCube34 1
+    100270: pCube36
+    100272: pCube36 1
+    100274: pCube37
+    100276: pCube37 1
+    100278: pCube4
+    100280: pCube46
+    100282: pCube47
+    100284: pCube5
+    100286: pCube6
+    100288: pCube61
+    100290: pCube63
+    100292: pCube64
+    100294: pCube7
+    100296: pCube8
+    100298: pCube8 1
+    100300: pCube9
+    100302: pCylinder10
+    100304: pCylinder11
+    100306: pCylinder14
+    100308: pCylinder16
+    100310: pCylinder19
+    100312: pCylinder19 1
+    100314: pCylinder20
+    100316: pCylinder20 1
+    100318: pCylinder21
+    100320: pCylinder21 1
+    100322: pCylinder26
+    100324: pCylinder26 1
+    100326: pCylinder27
+    100328: pCylinder27 1
+    100330: pCylinder28
+    100332: pCylinder28 1
+    100334: pCylinder29
+    100336: pCylinder29 1
+    100338: pCylinder3
+    100340: pCylinder30
+    100342: pCylinder30 1
+    100344: pCylinder31
+    100346: pCylinder31 1
+    100348: pCylinder32
+    100350: pCylinder32 1
+    100352: pCylinder33
+    100354: pCylinder33 1
+    100356: pCylinder35
+    100358: pCylinder37
+    100360: pCylinder38
+    100362: pCylinder39
+    100364: pCylinder39 1
+    100366: pCylinder4
+    100368: pCylinder40
+    100370: pCylinder40 1
+    100372: pCylinder41
+    100374: pCylinder41 1
+    100376: pCylinder42
+    100378: pCylinder42 1
+    100380: pCylinder45
+    100382: pCylinder45 1
+    100384: pCylinder45 2
+    100386: pCylinder45 3
+    100388: pCylinder45 4
+    100390: pCylinder45 5
+    100392: pCylinder45 6
+    100394: pCylinder45 7
+    100396: pCylinder5
+    100398: pCylinder53
+    100400: pCylinder53 1
+    100402: pCylinder53 2
+    100404: pCylinder53 3
+    100406: pCylinder53 4
+    100408: pCylinder53 5
+    100410: pCylinder53 6
+    100412: pCylinder53 7
+    100414: pCylinder54
+    100416: pCylinder54 1
+    100418: pCylinder54 2
+    100420: pCylinder54 3
+    100422: pCylinder54 4
+    100424: pCylinder54 5
+    100426: pCylinder54 6
+    100428: pCylinder54 7
+    100430: pCylinder55
+    100432: pCylinder55 1
+    100434: pCylinder56
+    100436: pCylinder56 1
+    100438: pCylinder57
+    100440: pCylinder58
+    100442: pCylinder59
+    100444: pCylinder6
+    100446: pCylinder62
+    100448: pCylinder63
+    100450: pCylinder64
+    100452: pCylinder66
+    100454: pCylinder67
+    100456: pCylinder68
+    100458: pCylinder69
+    100460: pCylinder7
+    100462: pCylinder7 1
+    100464: pCylinder70
+    100466: pCylinder71
+    100468: pCylinder72
+    100470: pCylinder73
+    100472: pCylinder74
+    100474: pCylinder75
+    100476: pCylinder76
+    100478: pCylinder77
+    100480: pCylinder78
+    100482: pCylinder79
+    100484: pCylinder8
+    100486: pCylinder81
+    100488: pCylinder82
+    100490: pCylinder83
+    100492: pCylinder84
+    100494: pCylinder86
+    100496: pCylinder87
+    100498: pCylinder88
+    100500: pCylinder89
+    100502: pCylinder9
+    100504: pCylinder90
+    100506: pCylinder91
+    100508: pCylinder92
+    100510: pCylinder93
+    100512: pCylinder94
+    100514: pCylinder95
+    100516: pCylinder96
+    100518: pHelix1
+    100520: pHelix1 1
+    100522: pHelix2
+    100524: pHelix3
+    100526: pHelix4
+    100528: pHelix5
+    100530: pHelix6
+    100532: polySurface10
+    100534: polySurface8
+    100536: polySurface9
+    100538: pPipe1
+    100540: pPipe2
+    100542: pPipe27
+    100544: pPipe28
+    100546: pPipe29
+    100548: pPipe3
+    100550: pPipe30
+    100552: pPipe31
+    100554: pPipe32
+    100556: pPipe4
+    100558: pPyramid1
+    100560: pPyramid1 1
+    100562: pPyramid2
+    100564: pPyramid2 1
+    100566: pPyramid3
+    100568: pPyramid3 1
+    100570: //RootNode
+    100572: Psittacosaurus
+    100574: pSphere1
+    100576: pSphere1 1
+    100578: pSphere2
+    100580: pSphere2 1
+    100582: pSphere3
+    100584: pSphere3 1
+    100586: pSphere4
+    100588: pSphere4 1
+    100590: pSphere4 2
+    100592: pSphere4 3
+    100594: pSphere4 4
+    100596: pSphere4 5
+    100598: pSphere4 6
+    100600: pSphere4 7
+    100602: pTorus1
+    100604: pTorus1 1
+    100606: pTorus2
+    100608: pTorus2 1
+    100610: pTorus3
+    100612: pTorus3 1
+    100614: pTorus4
+    100616: pTorus4 1
+    100618: R_Ankle
+    100620: R_Ankle_Armor
+    100622: R_Arm_03
+    100624: R_Eye
+    100626: R_Foot
+    100628: R_Head_Armor
+    100630: R_Leg
+    100632: R_Leg_01
+    100634: R_Leg_02
+    100636: R_Leg_03
+    100638: R_Leg_Armor_01
+    100640: R_Leg_Armor_02
+    100642: R_Toes
+    100644: Spine
+    100646: Tail_02
+    100648: Tail_03
+    100650: Tail_04
+    100652: Tail_05
+    100654: Tail_06
+    100656: top1
+    100658: Top_Head_Armor
+    100660: Torso
+    100662: Torso_Cog
+    100664: Torso_Mechanics
+    100666: Upper_Jaw_Armor
+    400000: Armor_Plane
+    400002: back
+    400004: Basics
+    400006: bottom
+    400008: Chest_Mechanics
+    400010: Dinosaur_Eye1:Eye
+    400012: Dinosaur_Eye1:Eye_Blink_Iris_Ctrl
+    400014: Dinosaur_Eye1:Eye_Ctrl_Grp
+    400016: Dinosaur_Eye1:Eye_Move_Ctrl
+    400018: Dinosaur_Eye1:polySurface1
+    400020: Dinosaur_Eye1:polySurface2
+    400022: Dinosaur_Eye1:polySurface3
+    400024: Dinosaur_Eye1:polySurface4
+    400026: Dinosaur_Eye1:pSphere1
+    400028: Dinosaur_Eye1:pSphere4
+    400030: Dinosaur_Eye1:pSphere5
+    400032: Dinosaur_Eye1:pSphere6
+    400034: Dinosaur_Eye1:pSphere7
+    400036: Dinosaur_Eye:Eye
+    400038: Dinosaur_Eye:Eye_Blink_Iris_Ctrl
+    400040: Dinosaur_Eye:Eye_Ctrl_Grp
+    400042: Dinosaur_Eye:Eye_Move_Ctrl
+    400044: Dinosaur_Eye:polySurface1
+    400046: Dinosaur_Eye:polySurface2
+    400048: Dinosaur_Eye:polySurface3
+    400050: Dinosaur_Eye:polySurface4
+    400052: Dinosaur_Eye:pSphere1
+    400054: Dinosaur_Eye:pSphere4
+    400056: Dinosaur_Eye:pSphere5
+    400058: Dinosaur_Eye:pSphere6
+    400060: Dinosaur_Eye:pSphere7
+    400062: Gears:left
+    400064: Gears:pPipe6
+    400066: group1
+    400068: group1 1
+    400070: Head_Armor
+    400072: Head_Gears
+    400074: Head_Pipes
+    400076: Hip_Armor
+    400078: imagePlane1
+    400080: imagePlane2
+    400082: imagePlane3
+    400084: Internal_Head
+    400086: L_Ankle
+    400088: L_Ankle_Armor
+    400090: L_Arm_01
+    400092: L_Arm_02
+    400094: L_Arm_02 1
+    400096: L_Eye
+    400098: L_Foot
+    400100: L_Head_Armor
+    400102: L_Hip_Armor
+    400104: L_Leg
+    400106: L_Leg_01
+    400108: L_Leg_02
+    400110: L_Leg_03
+    400112: L_Leg_Armor_01
+    400114: L_Leg_Armor_02
+    400116: L_Toes
+    400118: left
+    400120: Lower_Jaw_Armor
+    400122: Main_Gear
+    400124: Mechanics_Plane
+    400126: Middle_Finger
+    400128: Middle_Finger 1
+    400130: Middle_Finger2
+    400132: Middle_Finger2 1
+    400134: Middle_Finger3
+    400136: Middle_Finger3 1
+    400138: Middle_Finger4
+    400140: Middle_Finger4 1
+    400142: Neck
+    400144: Neck01
+    400146: Neck02
+    400148: pCube1
+    400150: pCube10
+    400152: pCube11
+    400154: pCube12
+    400156: pCube12 1
+    400158: pCube13
+    400160: pCube13 1
+    400162: pCube14
+    400164: pCube14 1
+    400166: pCube18
+    400168: pCube18 1
+    400170: pCube19
+    400172: pCube19 1
+    400174: pCube2
+    400176: pCube20
+    400178: pCube20 1
+    400180: pCube21
+    400182: pCube21 1
+    400184: pCube22
+    400186: pCube22 1
+    400188: pCube23
+    400190: pCube23 1
+    400192: pCube24
+    400194: pCube24 1
+    400196: pCube25
+    400198: pCube25 1
+    400200: pCube26
+    400202: pCube26 1
+    400204: pCube27
+    400206: pCube27 1
+    400208: pCube28
+    400210: pCube28 1
+    400212: pCube3
+    400214: pCube30
+    400216: pCube30 1
+    400218: pCube30 2
+    400220: pCube30 3
+    400222: pCube30 4
+    400224: pCube30 5
+    400226: pCube30 6
+    400228: pCube30 7
+    400230: pCube31
+    400232: pCube31 1
+    400234: pCube32
+    400236: pCube32 1
+    400238: pCube32 2
+    400240: pCube32 3
+    400242: pCube32 4
+    400244: pCube32 5
+    400246: pCube32 6
+    400248: pCube32 7
+    400250: pCube33
+    400252: pCube33 1
+    400254: pCube33 2
+    400256: pCube33 3
+    400258: pCube33 4
+    400260: pCube33 5
+    400262: pCube33 6
+    400264: pCube33 7
+    400266: pCube34
+    400268: pCube34 1
+    400270: pCube36
+    400272: pCube36 1
+    400274: pCube37
+    400276: pCube37 1
+    400278: pCube4
+    400280: pCube46
+    400282: pCube47
+    400284: pCube5
+    400286: pCube6
+    400288: pCube61
+    400290: pCube63
+    400292: pCube64
+    400294: pCube7
+    400296: pCube8
+    400298: pCube8 1
+    400300: pCube9
+    400302: pCylinder10
+    400304: pCylinder11
+    400306: pCylinder14
+    400308: pCylinder16
+    400310: pCylinder19
+    400312: pCylinder19 1
+    400314: pCylinder20
+    400316: pCylinder20 1
+    400318: pCylinder21
+    400320: pCylinder21 1
+    400322: pCylinder26
+    400324: pCylinder26 1
+    400326: pCylinder27
+    400328: pCylinder27 1
+    400330: pCylinder28
+    400332: pCylinder28 1
+    400334: pCylinder29
+    400336: pCylinder29 1
+    400338: pCylinder3
+    400340: pCylinder30
+    400342: pCylinder30 1
+    400344: pCylinder31
+    400346: pCylinder31 1
+    400348: pCylinder32
+    400350: pCylinder32 1
+    400352: pCylinder33
+    400354: pCylinder33 1
+    400356: pCylinder35
+    400358: pCylinder37
+    400360: pCylinder38
+    400362: pCylinder39
+    400364: pCylinder39 1
+    400366: pCylinder4
+    400368: pCylinder40
+    400370: pCylinder40 1
+    400372: pCylinder41
+    400374: pCylinder41 1
+    400376: pCylinder42
+    400378: pCylinder42 1
+    400380: pCylinder45
+    400382: pCylinder45 1
+    400384: pCylinder45 2
+    400386: pCylinder45 3
+    400388: pCylinder45 4
+    400390: pCylinder45 5
+    400392: pCylinder45 6
+    400394: pCylinder45 7
+    400396: pCylinder5
+    400398: pCylinder53
+    400400: pCylinder53 1
+    400402: pCylinder53 2
+    400404: pCylinder53 3
+    400406: pCylinder53 4
+    400408: pCylinder53 5
+    400410: pCylinder53 6
+    400412: pCylinder53 7
+    400414: pCylinder54
+    400416: pCylinder54 1
+    400418: pCylinder54 2
+    400420: pCylinder54 3
+    400422: pCylinder54 4
+    400424: pCylinder54 5
+    400426: pCylinder54 6
+    400428: pCylinder54 7
+    400430: pCylinder55
+    400432: pCylinder55 1
+    400434: pCylinder56
+    400436: pCylinder56 1
+    400438: pCylinder57
+    400440: pCylinder58
+    400442: pCylinder59
+    400444: pCylinder6
+    400446: pCylinder62
+    400448: pCylinder63
+    400450: pCylinder64
+    400452: pCylinder66
+    400454: pCylinder67
+    400456: pCylinder68
+    400458: pCylinder69
+    400460: pCylinder7
+    400462: pCylinder7 1
+    400464: pCylinder70
+    400466: pCylinder71
+    400468: pCylinder72
+    400470: pCylinder73
+    400472: pCylinder74
+    400474: pCylinder75
+    400476: pCylinder76
+    400478: pCylinder77
+    400480: pCylinder78
+    400482: pCylinder79
+    400484: pCylinder8
+    400486: pCylinder81
+    400488: pCylinder82
+    400490: pCylinder83
+    400492: pCylinder84
+    400494: pCylinder86
+    400496: pCylinder87
+    400498: pCylinder88
+    400500: pCylinder89
+    400502: pCylinder9
+    400504: pCylinder90
+    400506: pCylinder91
+    400508: pCylinder92
+    400510: pCylinder93
+    400512: pCylinder94
+    400514: pCylinder95
+    400516: pCylinder96
+    400518: pHelix1
+    400520: pHelix1 1
+    400522: pHelix2
+    400524: pHelix3
+    400526: pHelix4
+    400528: pHelix5
+    400530: pHelix6
+    400532: polySurface10
+    400534: polySurface8
+    400536: polySurface9
+    400538: pPipe1
+    400540: pPipe2
+    400542: pPipe27
+    400544: pPipe28
+    400546: pPipe29
+    400548: pPipe3
+    400550: pPipe30
+    400552: pPipe31
+    400554: pPipe32
+    400556: pPipe4
+    400558: pPyramid1
+    400560: pPyramid1 1
+    400562: pPyramid2
+    400564: pPyramid2 1
+    400566: pPyramid3
+    400568: pPyramid3 1
+    400570: //RootNode
+    400572: Psittacosaurus
+    400574: pSphere1
+    400576: pSphere1 1
+    400578: pSphere2
+    400580: pSphere2 1
+    400582: pSphere3
+    400584: pSphere3 1
+    400586: pSphere4
+    400588: pSphere4 1
+    400590: pSphere4 2
+    400592: pSphere4 3
+    400594: pSphere4 4
+    400596: pSphere4 5
+    400598: pSphere4 6
+    400600: pSphere4 7
+    400602: pTorus1
+    400604: pTorus1 1
+    400606: pTorus2
+    400608: pTorus2 1
+    400610: pTorus3
+    400612: pTorus3 1
+    400614: pTorus4
+    400616: pTorus4 1
+    400618: R_Ankle
+    400620: R_Ankle_Armor
+    400622: R_Arm_03
+    400624: R_Eye
+    400626: R_Foot
+    400628: R_Head_Armor
+    400630: R_Leg
+    400632: R_Leg_01
+    400634: R_Leg_02
+    400636: R_Leg_03
+    400638: R_Leg_Armor_01
+    400640: R_Leg_Armor_02
+    400642: R_Toes
+    400644: Spine
+    400646: Tail_02
+    400648: Tail_03
+    400650: Tail_04
+    400652: Tail_05
+    400654: Tail_06
+    400656: top1
+    400658: Top_Head_Armor
+    400660: Torso
+    400662: Torso_Cog
+    400664: Torso_Mechanics
+    400666: Upper_Jaw_Armor
+    2300000: Dinosaur_Eye1:polySurface1
+    2300002: Dinosaur_Eye1:polySurface2
+    2300004: Dinosaur_Eye1:polySurface3
+    2300006: Dinosaur_Eye1:polySurface4
+    2300008: Dinosaur_Eye1:pSphere1
+    2300010: Dinosaur_Eye1:pSphere4
+    2300012: Dinosaur_Eye1:pSphere5
+    2300014: Dinosaur_Eye1:pSphere6
+    2300016: Dinosaur_Eye1:pSphere7
+    2300018: Dinosaur_Eye:polySurface1
+    2300020: Dinosaur_Eye:polySurface2
+    2300022: Dinosaur_Eye:polySurface3
+    2300024: Dinosaur_Eye:polySurface4
+    2300026: Dinosaur_Eye:pSphere1
+    2300028: Dinosaur_Eye:pSphere4
+    2300030: Dinosaur_Eye:pSphere5
+    2300032: Dinosaur_Eye:pSphere6
+    2300034: Dinosaur_Eye:pSphere7
+    2300036: Gears:pPipe6
+    2300038: Hip_Armor
+    2300040: L_Ankle_Armor
+    2300042: L_Head_Armor
+    2300044: L_Hip_Armor
+    2300046: L_Leg_Armor_01
+    2300048: L_Leg_Armor_02
+    2300050: L_Toes
+    2300052: Lower_Jaw_Armor
+    2300054: Main_Gear
+    2300056: Neck
+    2300058: Neck01
+    2300060: Neck02
+    2300062: pCube1
+    2300064: pCube10
+    2300066: pCube11
+    2300068: pCube12
+    2300070: pCube12 1
+    2300072: pCube13
+    2300074: pCube13 1
+    2300076: pCube14
+    2300078: pCube14 1
+    2300080: pCube18
+    2300082: pCube18 1
+    2300084: pCube19
+    2300086: pCube19 1
+    2300088: pCube2
+    2300090: pCube20
+    2300092: pCube20 1
+    2300094: pCube21
+    2300096: pCube21 1
+    2300098: pCube22
+    2300100: pCube22 1
+    2300102: pCube23
+    2300104: pCube23 1
+    2300106: pCube24
+    2300108: pCube24 1
+    2300110: pCube25
+    2300112: pCube25 1
+    2300114: pCube26
+    2300116: pCube26 1
+    2300118: pCube27
+    2300120: pCube27 1
+    2300122: pCube28
+    2300124: pCube28 1
+    2300126: pCube3
+    2300128: pCube30
+    2300130: pCube30 1
+    2300132: pCube30 2
+    2300134: pCube30 3
+    2300136: pCube30 4
+    2300138: pCube30 5
+    2300140: pCube30 6
+    2300142: pCube30 7
+    2300144: pCube31
+    2300146: pCube31 1
+    2300148: pCube32
+    2300150: pCube32 1
+    2300152: pCube32 2
+    2300154: pCube32 3
+    2300156: pCube32 4
+    2300158: pCube32 5
+    2300160: pCube32 6
+    2300162: pCube32 7
+    2300164: pCube33
+    2300166: pCube33 1
+    2300168: pCube33 2
+    2300170: pCube33 3
+    2300172: pCube33 4
+    2300174: pCube33 5
+    2300176: pCube33 6
+    2300178: pCube33 7
+    2300180: pCube34
+    2300182: pCube34 1
+    2300184: pCube36
+    2300186: pCube36 1
+    2300188: pCube37
+    2300190: pCube37 1
+    2300192: pCube4
+    2300194: pCube47
+    2300196: pCube5
+    2300198: pCube6
+    2300200: pCube61
+    2300202: pCube63
+    2300204: pCube64
+    2300206: pCube7
+    2300208: pCube8
+    2300210: pCube8 1
+    2300212: pCube9
+    2300214: pCylinder10
+    2300216: pCylinder11
+    2300218: pCylinder14
+    2300220: pCylinder16
+    2300222: pCylinder19
+    2300224: pCylinder19 1
+    2300226: pCylinder20
+    2300228: pCylinder20 1
+    2300230: pCylinder21
+    2300232: pCylinder21 1
+    2300234: pCylinder26
+    2300236: pCylinder26 1
+    2300238: pCylinder27
+    2300240: pCylinder27 1
+    2300242: pCylinder28
+    2300244: pCylinder28 1
+    2300246: pCylinder29
+    2300248: pCylinder29 1
+    2300250: pCylinder3
+    2300252: pCylinder30
+    2300254: pCylinder30 1
+    2300256: pCylinder31
+    2300258: pCylinder31 1
+    2300260: pCylinder32
+    2300262: pCylinder32 1
+    2300264: pCylinder33
+    2300266: pCylinder33 1
+    2300268: pCylinder35
+    2300270: pCylinder37
+    2300272: pCylinder38
+    2300274: pCylinder39
+    2300276: pCylinder39 1
+    2300278: pCylinder4
+    2300280: pCylinder40
+    2300282: pCylinder40 1
+    2300284: pCylinder41
+    2300286: pCylinder41 1
+    2300288: pCylinder42
+    2300290: pCylinder42 1
+    2300292: pCylinder45
+    2300294: pCylinder45 1
+    2300296: pCylinder45 2
+    2300298: pCylinder45 3
+    2300300: pCylinder45 4
+    2300302: pCylinder45 5
+    2300304: pCylinder45 6
+    2300306: pCylinder45 7
+    2300308: pCylinder5
+    2300310: pCylinder53
+    2300312: pCylinder53 1
+    2300314: pCylinder53 2
+    2300316: pCylinder53 3
+    2300318: pCylinder53 4
+    2300320: pCylinder53 5
+    2300322: pCylinder53 6
+    2300324: pCylinder53 7
+    2300326: pCylinder54
+    2300328: pCylinder54 1
+    2300330: pCylinder54 2
+    2300332: pCylinder54 3
+    2300334: pCylinder54 4
+    2300336: pCylinder54 5
+    2300338: pCylinder54 6
+    2300340: pCylinder54 7
+    2300342: pCylinder55
+    2300344: pCylinder55 1
+    2300346: pCylinder56
+    2300348: pCylinder56 1
+    2300350: pCylinder57
+    2300352: pCylinder58
+    2300354: pCylinder59
+    2300356: pCylinder6
+    2300358: pCylinder62
+    2300360: pCylinder63
+    2300362: pCylinder64
+    2300364: pCylinder66
+    2300366: pCylinder67
+    2300368: pCylinder68
+    2300370: pCylinder69
+    2300372: pCylinder7
+    2300374: pCylinder7 1
+    2300376: pCylinder70
+    2300378: pCylinder71
+    2300380: pCylinder72
+    2300382: pCylinder73
+    2300384: pCylinder74
+    2300386: pCylinder75
+    2300388: pCylinder76
+    2300390: pCylinder77
+    2300392: pCylinder78
+    2300394: pCylinder79
+    2300396: pCylinder8
+    2300398: pCylinder81
+    2300400: pCylinder82
+    2300402: pCylinder83
+    2300404: pCylinder84
+    2300406: pCylinder86
+    2300408: pCylinder87
+    2300410: pCylinder88
+    2300412: pCylinder89
+    2300414: pCylinder9
+    2300416: pCylinder90
+    2300418: pCylinder91
+    2300420: pCylinder92
+    2300422: pCylinder93
+    2300424: pCylinder94
+    2300426: pCylinder95
+    2300428: pCylinder96
+    2300430: pHelix1
+    2300432: pHelix1 1
+    2300434: pHelix2
+    2300436: pHelix3
+    2300438: pHelix4
+    2300440: pHelix5
+    2300442: pHelix6
+    2300444: polySurface10
+    2300446: polySurface8
+    2300448: polySurface9
+    2300450: pPipe1
+    2300452: pPipe2
+    2300454: pPipe27
+    2300456: pPipe28
+    2300458: pPipe29
+    2300460: pPipe3
+    2300462: pPipe30
+    2300464: pPipe31
+    2300466: pPipe32
+    2300468: pPipe4
+    2300470: pPyramid1
+    2300472: pPyramid1 1
+    2300474: pPyramid2
+    2300476: pPyramid2 1
+    2300478: pPyramid3
+    2300480: pPyramid3 1
+    2300482: pSphere1
+    2300484: pSphere1 1
+    2300486: pSphere2
+    2300488: pSphere2 1
+    2300490: pSphere3
+    2300492: pSphere3 1
+    2300494: pSphere4
+    2300496: pSphere4 1
+    2300498: pSphere4 2
+    2300500: pSphere4 3
+    2300502: pSphere4 4
+    2300504: pSphere4 5
+    2300506: pSphere4 6
+    2300508: pSphere4 7
+    2300510: pTorus1
+    2300512: pTorus1 1
+    2300514: pTorus2
+    2300516: pTorus2 1
+    2300518: pTorus3
+    2300520: pTorus3 1
+    2300522: pTorus4
+    2300524: pTorus4 1
+    2300526: R_Ankle_Armor
+    2300528: R_Head_Armor
+    2300530: R_Leg_Armor_01
+    2300532: R_Leg_Armor_02
+    2300534: R_Toes
+    2300536: Spine
+    2300538: Tail_02
+    2300540: Tail_03
+    2300542: Tail_04
+    2300544: Tail_05
+    2300546: Tail_06
+    2300548: Top_Head_Armor
+    2300550: Torso
+    2300552: Torso_Cog
+    2300554: Upper_Jaw_Armor
+    3300000: Dinosaur_Eye1:polySurface1
+    3300002: Dinosaur_Eye1:polySurface2
+    3300004: Dinosaur_Eye1:polySurface3
+    3300006: Dinosaur_Eye1:polySurface4
+    3300008: Dinosaur_Eye1:pSphere1
+    3300010: Dinosaur_Eye1:pSphere4
+    3300012: Dinosaur_Eye1:pSphere5
+    3300014: Dinosaur_Eye1:pSphere6
+    3300016: Dinosaur_Eye1:pSphere7
+    3300018: Dinosaur_Eye:polySurface1
+    3300020: Dinosaur_Eye:polySurface2
+    3300022: Dinosaur_Eye:polySurface3
+    3300024: Dinosaur_Eye:polySurface4
+    3300026: Dinosaur_Eye:pSphere1
+    3300028: Dinosaur_Eye:pSphere4
+    3300030: Dinosaur_Eye:pSphere5
+    3300032: Dinosaur_Eye:pSphere6
+    3300034: Dinosaur_Eye:pSphere7
+    3300036: Gears:pPipe6
+    3300038: Hip_Armor
+    3300040: L_Ankle_Armor
+    3300042: L_Head_Armor
+    3300044: L_Hip_Armor
+    3300046: L_Leg_Armor_01
+    3300048: L_Leg_Armor_02
+    3300050: L_Toes
+    3300052: Lower_Jaw_Armor
+    3300054: Main_Gear
+    3300056: Neck
+    3300058: Neck01
+    3300060: Neck02
+    3300062: pCube1
+    3300064: pCube10
+    3300066: pCube11
+    3300068: pCube12
+    3300070: pCube12 1
+    3300072: pCube13
+    3300074: pCube13 1
+    3300076: pCube14
+    3300078: pCube14 1
+    3300080: pCube18
+    3300082: pCube18 1
+    3300084: pCube19
+    3300086: pCube19 1
+    3300088: pCube2
+    3300090: pCube20
+    3300092: pCube20 1
+    3300094: pCube21
+    3300096: pCube21 1
+    3300098: pCube22
+    3300100: pCube22 1
+    3300102: pCube23
+    3300104: pCube23 1
+    3300106: pCube24
+    3300108: pCube24 1
+    3300110: pCube25
+    3300112: pCube25 1
+    3300114: pCube26
+    3300116: pCube26 1
+    3300118: pCube27
+    3300120: pCube27 1
+    3300122: pCube28
+    3300124: pCube28 1
+    3300126: pCube3
+    3300128: pCube30
+    3300130: pCube30 1
+    3300132: pCube30 2
+    3300134: pCube30 3
+    3300136: pCube30 4
+    3300138: pCube30 5
+    3300140: pCube30 6
+    3300142: pCube30 7
+    3300144: pCube31
+    3300146: pCube31 1
+    3300148: pCube32
+    3300150: pCube32 1
+    3300152: pCube32 2
+    3300154: pCube32 3
+    3300156: pCube32 4
+    3300158: pCube32 5
+    3300160: pCube32 6
+    3300162: pCube32 7
+    3300164: pCube33
+    3300166: pCube33 1
+    3300168: pCube33 2
+    3300170: pCube33 3
+    3300172: pCube33 4
+    3300174: pCube33 5
+    3300176: pCube33 6
+    3300178: pCube33 7
+    3300180: pCube34
+    3300182: pCube34 1
+    3300184: pCube36
+    3300186: pCube36 1
+    3300188: pCube37
+    3300190: pCube37 1
+    3300192: pCube4
+    3300194: pCube47
+    3300196: pCube5
+    3300198: pCube6
+    3300200: pCube61
+    3300202: pCube63
+    3300204: pCube64
+    3300206: pCube7
+    3300208: pCube8
+    3300210: pCube8 1
+    3300212: pCube9
+    3300214: pCylinder10
+    3300216: pCylinder11
+    3300218: pCylinder14
+    3300220: pCylinder16
+    3300222: pCylinder19
+    3300224: pCylinder19 1
+    3300226: pCylinder20
+    3300228: pCylinder20 1
+    3300230: pCylinder21
+    3300232: pCylinder21 1
+    3300234: pCylinder26
+    3300236: pCylinder26 1
+    3300238: pCylinder27
+    3300240: pCylinder27 1
+    3300242: pCylinder28
+    3300244: pCylinder28 1
+    3300246: pCylinder29
+    3300248: pCylinder29 1
+    3300250: pCylinder3
+    3300252: pCylinder30
+    3300254: pCylinder30 1
+    3300256: pCylinder31
+    3300258: pCylinder31 1
+    3300260: pCylinder32
+    3300262: pCylinder32 1
+    3300264: pCylinder33
+    3300266: pCylinder33 1
+    3300268: pCylinder35
+    3300270: pCylinder37
+    3300272: pCylinder38
+    3300274: pCylinder39
+    3300276: pCylinder39 1
+    3300278: pCylinder4
+    3300280: pCylinder40
+    3300282: pCylinder40 1
+    3300284: pCylinder41
+    3300286: pCylinder41 1
+    3300288: pCylinder42
+    3300290: pCylinder42 1
+    3300292: pCylinder45
+    3300294: pCylinder45 1
+    3300296: pCylinder45 2
+    3300298: pCylinder45 3
+    3300300: pCylinder45 4
+    3300302: pCylinder45 5
+    3300304: pCylinder45 6
+    3300306: pCylinder45 7
+    3300308: pCylinder5
+    3300310: pCylinder53
+    3300312: pCylinder53 1
+    3300314: pCylinder53 2
+    3300316: pCylinder53 3
+    3300318: pCylinder53 4
+    3300320: pCylinder53 5
+    3300322: pCylinder53 6
+    3300324: pCylinder53 7
+    3300326: pCylinder54
+    3300328: pCylinder54 1
+    3300330: pCylinder54 2
+    3300332: pCylinder54 3
+    3300334: pCylinder54 4
+    3300336: pCylinder54 5
+    3300338: pCylinder54 6
+    3300340: pCylinder54 7
+    3300342: pCylinder55
+    3300344: pCylinder55 1
+    3300346: pCylinder56
+    3300348: pCylinder56 1
+    3300350: pCylinder57
+    3300352: pCylinder58
+    3300354: pCylinder59
+    3300356: pCylinder6
+    3300358: pCylinder62
+    3300360: pCylinder63
+    3300362: pCylinder64
+    3300364: pCylinder66
+    3300366: pCylinder67
+    3300368: pCylinder68
+    3300370: pCylinder69
+    3300372: pCylinder7
+    3300374: pCylinder7 1
+    3300376: pCylinder70
+    3300378: pCylinder71
+    3300380: pCylinder72
+    3300382: pCylinder73
+    3300384: pCylinder74
+    3300386: pCylinder75
+    3300388: pCylinder76
+    3300390: pCylinder77
+    3300392: pCylinder78
+    3300394: pCylinder79
+    3300396: pCylinder8
+    3300398: pCylinder81
+    3300400: pCylinder82
+    3300402: pCylinder83
+    3300404: pCylinder84
+    3300406: pCylinder86
+    3300408: pCylinder87
+    3300410: pCylinder88
+    3300412: pCylinder89
+    3300414: pCylinder9
+    3300416: pCylinder90
+    3300418: pCylinder91
+    3300420: pCylinder92
+    3300422: pCylinder93
+    3300424: pCylinder94
+    3300426: pCylinder95
+    3300428: pCylinder96
+    3300430: pHelix1
+    3300432: pHelix1 1
+    3300434: pHelix2
+    3300436: pHelix3
+    3300438: pHelix4
+    3300440: pHelix5
+    3300442: pHelix6
+    3300444: polySurface10
+    3300446: polySurface8
+    3300448: polySurface9
+    3300450: pPipe1
+    3300452: pPipe2
+    3300454: pPipe27
+    3300456: pPipe28
+    3300458: pPipe29
+    3300460: pPipe3
+    3300462: pPipe30
+    3300464: pPipe31
+    3300466: pPipe32
+    3300468: pPipe4
+    3300470: pPyramid1
+    3300472: pPyramid1 1
+    3300474: pPyramid2
+    3300476: pPyramid2 1
+    3300478: pPyramid3
+    3300480: pPyramid3 1
+    3300482: pSphere1
+    3300484: pSphere1 1
+    3300486: pSphere2
+    3300488: pSphere2 1
+    3300490: pSphere3
+    3300492: pSphere3 1
+    3300494: pSphere4
+    3300496: pSphere4 1
+    3300498: pSphere4 2
+    3300500: pSphere4 3
+    3300502: pSphere4 4
+    3300504: pSphere4 5
+    3300506: pSphere4 6
+    3300508: pSphere4 7
+    3300510: pTorus1
+    3300512: pTorus1 1
+    3300514: pTorus2
+    3300516: pTorus2 1
+    3300518: pTorus3
+    3300520: pTorus3 1
+    3300522: pTorus4
+    3300524: pTorus4 1
+    3300526: R_Ankle_Armor
+    3300528: R_Head_Armor
+    3300530: R_Leg_Armor_01
+    3300532: R_Leg_Armor_02
+    3300534: R_Toes
+    3300536: Spine
+    3300538: Tail_02
+    3300540: Tail_03
+    3300542: Tail_04
+    3300544: Tail_05
+    3300546: Tail_06
+    3300548: Top_Head_Armor
+    3300550: Torso
+    3300552: Torso_Cog
+    3300554: Upper_Jaw_Armor
+    4300000: Tail_06
+    4300002: Tail_03
+    4300004: Tail_02
+    4300006: Tail_04
+    4300008: Tail_05
+    4300010: Torso
+    4300012: Spine
+    4300014: Upper_Jaw_Armor
+    4300016: Lower_Jaw_Armor
+    4300018: L_Head_Armor
+    4300020: R_Head_Armor
+    4300022: Top_Head_Armor
+    4300024: pCube1
+    4300026: pCube2
+    4300028: pCube3
+    4300030: pCylinder11
+    4300032: pCylinder8
+    4300034: pCylinder6
+    4300036: pCylinder14
+    4300038: pCylinder5
+    4300040: pCylinder16
+    4300042: pCube7
+    4300044: pCube6
+    4300046: pCube5
+    4300048: pCube11
+    4300050: pCylinder4
+    4300052: pCylinder7
+    4300054: pCube8
+    4300056: pCylinder10
+    4300058: pCylinder7
+    4300060: pCube8
+    4300062: pCube4
+    4300064: Main_Gear
+    4300066: Torso_Cog
+    4300068: pCube10
+    4300070: pCylinder9
+    4300072: pCube9
+    4300074: pCylinder37
+    4300076: pCylinder35
+    4300078: pTorus3
+    4300080: pCylinder38
+    4300082: pTorus3
+    4300084: L_Toes
+    4300086: pPyramid2
+    4300088: pPyramid1
+    4300090: pPyramid3
+    4300092: pCylinder27
+    4300094: pCylinder28
+    4300096: pCylinder30
+    4300098: pCube22
+    4300100: pCube21
+    4300102: pCube19
+    4300104: L_Ankle_Armor
+    4300106: pCube20
+    4300108: pCube23
+    4300110: pCylinder20
+    4300112: pCylinder29
+    4300114: L_Leg_Armor_02
+    4300116: pTorus2
+    4300118: pCube25
+    4300120: pCube24
+    4300122: pSphere2
+    4300124: pCylinder31
+    4300126: pCylinder33
+    4300128: pCylinder32
+    4300130: pCube14
+    4300132: pCube12
+    4300134: pTorus1
+    4300136: pCube13
+    4300138: pSphere1
+    4300140: pCylinder26
+    4300142: L_Leg_Armor_01
+    4300144: pCube18
+    4300146: pCylinder21
+    4300148: L_Hip_Armor
+    4300150: pHelix1
+    4300152: pCylinder19
+    4300154: R_Toes
+    4300156: pPyramid2
+    4300158: pPyramid1
+    4300160: pPyramid3
+    4300162: pCylinder27
+    4300164: pCylinder28
+    4300166: pCylinder30
+    4300168: pCube22
+    4300170: pCube21
+    4300172: pCube19
+    4300174: R_Ankle_Armor
+    4300176: pCube20
+    4300178: pCube23
+    4300180: pCylinder20
+    4300182: pCylinder29
+    4300184: R_Leg_Armor_02
+    4300186: pTorus2
+    4300188: pCube25
+    4300190: pCube24
+    4300192: pSphere2
+    4300194: pCylinder31
+    4300196: pCylinder33
+    4300198: pCylinder32
+    4300200: pCube14
+    4300202: pCube12
+    4300204: pTorus1
+    4300206: pCube13
+    4300208: pSphere1
+    4300210: pCylinder26
+    4300212: R_Leg_Armor_01
+    4300214: pCube18
+    4300216: pCylinder21
+    4300218: Hip_Armor
+    4300220: pHelix1
+    4300222: pCylinder19
+    4300224: pCylinder40
+    4300226: pCube26
+    4300228: pCube27
+    4300230: pCylinder41
+    4300232: pCylinder42
+    4300234: pCube28
+    4300236: pCylinder55
+    4300238: pCube34
+    4300240: pCube31
+    4300242: pCylinder53
+    4300244: pCylinder45
+    4300246: pCube30
+    4300248: pSphere4
+    4300250: pCylinder54
+    4300252: pCube32
+    4300254: pCube33
+    4300256: pCylinder53
+    4300258: pCylinder45
+    4300260: pCube30
+    4300262: pSphere4
+    4300264: pCylinder54
+    4300266: pCube32
+    4300268: pCube33
+    4300270: pCylinder53
+    4300272: pCylinder45
+    4300274: pCube30
+    4300276: pSphere4
+    4300278: pCylinder54
+    4300280: pCube32
+    4300282: pCube33
+    4300284: pCylinder53
+    4300286: pCylinder45
+    4300288: pCube30
+    4300290: pSphere4
+    4300292: pCylinder54
+    4300294: pCube32
+    4300296: pCube33
+    4300298: pSphere3
+    4300300: pTorus4
+    4300302: pCube37
+    4300304: pCube36
+    4300306: pCylinder39
+    4300308: pCylinder56
+    4300310: pCylinder40
+    4300312: pCube26
+    4300314: pCube27
+    4300316: pCylinder41
+    4300318: pCylinder42
+    4300320: pCube28
+    4300322: pCylinder55
+    4300324: pCube34
+    4300326: pCube31
+    4300328: pCylinder53
+    4300330: pCylinder45
+    4300332: pCube30
+    4300334: pSphere4
+    4300336: pCylinder54
+    4300338: pCube32
+    4300340: pCube33
+    4300342: pCylinder53
+    4300344: pCylinder45
+    4300346: pCube30
+    4300348: pSphere4
+    4300350: pCylinder54
+    4300352: pCube32
+    4300354: pCube33
+    4300356: pCylinder53
+    4300358: pCylinder45
+    4300360: pCube30
+    4300362: pSphere4
+    4300364: pCylinder54
+    4300366: pCube32
+    4300368: pCube33
+    4300370: pCylinder53
+    4300372: pCylinder45
+    4300374: pCube30
+    4300376: pSphere4
+    4300378: pCylinder54
+    4300380: pCube32
+    4300382: pCube33
+    4300384: pSphere3
+    4300386: pTorus4
+    4300388: pCube37
+    4300390: pCylinder39
+    4300392: pCube36
+    4300394: pCylinder56
+    4300396: Neck02
+    4300398: Neck01
+    4300400: pCube61
+    4300402: pCube64
+    4300404: pCube63
+    4300406: pCylinder67
+    4300408: Neck
+    4300410: polySurface9
+    4300412: Dinosaur_Eye1:pSphere1
+    4300414: Dinosaur_Eye1:pSphere4
+    4300416: Dinosaur_Eye1:pSphere5
+    4300418: Dinosaur_Eye1:polySurface1
+    4300420: Dinosaur_Eye1:polySurface2
+    4300422: Dinosaur_Eye1:polySurface3
+    4300424: Dinosaur_Eye1:polySurface4
+    4300426: Dinosaur_Eye1:pSphere6
+    4300428: Dinosaur_Eye1:pSphere7
+    4300430: Dinosaur_Eye:pSphere1
+    4300432: Dinosaur_Eye:pSphere4
+    4300434: Dinosaur_Eye:pSphere5
+    4300436: Dinosaur_Eye:polySurface1
+    4300438: Dinosaur_Eye:polySurface2
+    4300440: Dinosaur_Eye:polySurface3
+    4300442: Dinosaur_Eye:polySurface4
+    4300444: Dinosaur_Eye:pSphere6
+    4300446: Dinosaur_Eye:pSphere7
+    4300448: pPipe27
+    4300450: pPipe28
+    4300452: pPipe29
+    4300454: pPipe30
+    4300456: pPipe31
+    4300458: pPipe32
+    4300460: polySurface10
+    4300462: polySurface8
+    4300464: Gears:pPipe6
+    4300466: pCylinder96
+    4300468: pCylinder95
+    4300470: pCylinder94
+    4300472: pCylinder93
+    4300474: pCylinder92
+    4300476: pCylinder91
+    4300478: pCylinder90
+    4300480: pCylinder89
+    4300482: pCylinder88
+    4300484: pCylinder87
+    4300486: pCylinder86
+    4300488: pCylinder59
+    4300490: pCylinder58
+    4300492: pPipe2
+    4300494: pCylinder66
+    4300496: pCylinder64
+    4300498: pCylinder63
+    4300500: pCylinder3
+    4300502: pCylinder62
+    4300504: pPipe4
+    4300506: pPipe3
+    4300508: pPipe1
+    4300510: pCylinder57
+    4300512: pCylinder72
+    4300514: pCylinder74
+    4300516: pCylinder69
+    4300518: pCylinder71
+    4300520: pCylinder73
+    4300522: pCylinder70
+    4300524: pCylinder68
+    4300526: pCube47
+    4300528: pCylinder75
+    4300530: pCylinder76
+    4300532: pCylinder77
+    4300534: pCylinder78
+    4300536: pCylinder79
+    4300538: pCylinder81
+    4300540: pCylinder82
+    4300542: pCylinder83
+    4300544: pCylinder84
+    4300546: pHelix2
+    4300548: pHelix3
+    4300550: pHelix4
+    4300552: pHelix5
+    4300554: pHelix6
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
