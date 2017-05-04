@@ -2,6 +2,11 @@
 using System.Collections;
 
 public class InputManager_JusB: MonoBehaviour {
+
+
+	[SerializeField]
+	private PlayerInputConfig input;
+
 	[SerializeField]
 	private KeyCode TabKey;
 	[SerializeField]
@@ -16,11 +21,23 @@ public class InputManager_JusB: MonoBehaviour {
 	public delegate void keyHandler(KeyCode keyPressed);
 	public event keyHandler keyPressed;
 
-	// Use this for initialization
-	void Start () {
-		
+	void OnEnable () {
+		InputManager.AddButtonDelegate (input.moveVerticalInput, 0.8f, OnUp);
+		InputManager.AddButtonDelegate (input.moveVerticalInput, -0.8f, OnDown);
+		InputManager.AddButtonDelegate (input.moveHorizontalInput, -0.8f, OnLeft);
+		InputManager.AddButtonDelegate (input.moveHorizontalInput, 0.8f, OnRight);
+		InputManager.AddButtonDelegate (input.fireInput, OnMenu);
 	}
 
+	void OnDisable() {
+		InputManager.RemoveButtonDelegate (input.moveVerticalInput, 0.8f, OnUp);
+		InputManager.RemoveButtonDelegate (input.moveVerticalInput, -0.8f, OnDown);
+		InputManager.RemoveButtonDelegate (input.moveHorizontalInput, -0.8f, OnLeft);
+		InputManager.RemoveButtonDelegate (input.moveHorizontalInput, 0.8f, OnRight);
+		InputManager.RemoveButtonDelegate (input.fireInput, OnMenu);
+	}
+
+	/*
 	void Update(){
 			if (Input.GetKeyDown (TabKey)) {
 				Debug.Log ("Whoa");
@@ -35,6 +52,35 @@ public class InputManager_JusB: MonoBehaviour {
 				keyPressed (RightKey);
 			}
 	}
+	*/
+
+	public void OnMenu(ButtonState button) {
+		if (button.Pressed) {
+			keyPressed (TabKey);
+		}
+	}
+
+	public void OnUp(ButtonState button) {
+		if (button.Pressed) {
+			keyPressed (UpKey);
+		}
+	}
+	public void OnDown(ButtonState button) {
+		if (button.Pressed) {
+			keyPressed (DownKey);
+		}
+	}
+	public void OnLeft(ButtonState button) {
+		if (button.Pressed) {
+			keyPressed (LeftKey);
+		}
+	}
+	public void OnRight(ButtonState button) {
+		if (button.Pressed) {
+			keyPressed (RightKey);
+		}
+	}
+
 	public KeyCode GetTabKey()
 	{
 		return TabKey;

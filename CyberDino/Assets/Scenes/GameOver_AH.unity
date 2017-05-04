@@ -869,8 +869,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91021d388706ae54ab9d3c79afd3995d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNext: 
-  restartDelay: 5
 --- !u!4 &1569342574
 Transform:
   m_ObjectHideFlags: 0
@@ -990,11 +988,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1914121412}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91021d388706ae54ab9d3c79afd3995d, type: 3}
+  m_Script: {fileID: 11500000, guid: a63a843540fd103429693f5ce51589d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNext: 
-  restartDelay: 5
+  rematchScene: 
+  mainMenu: 
 --- !u!95 &1914121418
 Animator:
   serializedVersion: 3

@@ -20,8 +20,7 @@ public class MapManager : MonoBehaviour {
     /// <summary>
     /// The list of players who won, and then the list of all players that fought in the match.
     /// </summary>
-    public event Action<PlayerData[], PlayerData[]> OnGameEnd;
-
+    public static event Action<PlayerData[], PlayerData[]> OnGameEnd;
 
 	// Use this for initialization
 	void OnEnable () {

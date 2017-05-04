@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using System;
 
-public class GameOverManager : MonoBehaviour
+public class GameOverManager_AH : MonoBehaviour
 {
     public string rematchScene; // ASSIGN THE SCENE NAMES HERE
     public string mainMenu;     // .......................
@@ -16,17 +16,27 @@ public class GameOverManager : MonoBehaviour
     {
         // Set up the reference.
         anim = GetComponent<Animator>();
+        MapManager.OnGameEnd += OnGameEnd;
+
+        gameObject.SetActive(false);
     }
 
-    void Update()
+    private void OnGameEnd(PlayerData[] winners, PlayerData[] allPlayers)
     {
-        // If there is one player remaining
-        //if (playerManager.playerCount == 1)
-        {
-            // ... tell the animator the game is over.
-            anim.SetTrigger("GameOver");
-        }
+        gameObject.SetActive(true);
+        anim.SetTrigger("GameOver");
+        //throw new NotImplementedException();
     }
+
+    //void Update()
+    //{
+    //    // If there is one player remaining
+    //    //if (playerManager.playerCount == 1)
+    //    {
+    //        // ... tell the animator the game is over.
+    //        anim.SetTrigger("GameOver");
+    //    }
+    //}
 
     public void rematchButton()
     {

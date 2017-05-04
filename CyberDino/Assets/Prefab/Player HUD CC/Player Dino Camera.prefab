@@ -111,8 +111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerControl: {fileID: 0}
   target: {fileID: 0}
-  targetOffset: {x: 0, y: 10, z: 0}
-  distance: 20
+  targetOffset: {x: 0, y: 3, z: 0}
+  distance: 5
   invertVerticalAxis: 0
   horizontalSpeed: 120
   verticalSpeed: 120
