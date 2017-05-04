@@ -4,8 +4,7 @@ using UnityEngine;
 
 //A simple automatic fire weapon. Should cover a lot of use cases of what's needed for things, but I'm leaving other kinds of weapons to be implemented by the Weapons team itself.
 public class AutomaticWeapon : Weapon {
-    // What is this weapon firing?
-    public GameObject projectilePrefab;
+    public FireBullets_AH_JR bullets;
     // How many seconds to wait before firing the next bullet. For 10 bullets a second, set this to 0.1.
     public float fireDelay;
     // What is the heat cost of firing a single bullet?
@@ -25,12 +24,12 @@ public class AutomaticWeapon : Weapon {
             spawnIndex = (spawnIndex + 1) % projectileSpawnPoints.Length;
 
             //Create projectilePrefab
-            // TODO: Get projectiles from a object pool intead of creating them!!
-            DamageDealer damager = (Instantiate(projectilePrefab, projectileSpawnPoints[spawnIndex].position, projectileSpawnPoints[spawnIndex].rotation) as GameObject).GetComponent<DamageDealer>();
+            DamageDealer damager = bullets.GetBullet(projectileSpawnPoints[spawnIndex]).GetComponent<DamageDealer>();
 
             //...configure it
             damager.damageSource = gameCharacter.gameObject;
             damager.damage = damage;
+            damager.excludedTransforms.Clear();
             damager.excludedTransforms.Add(gameCharacter.transform);
             lastFiredTime = Time.time;
 

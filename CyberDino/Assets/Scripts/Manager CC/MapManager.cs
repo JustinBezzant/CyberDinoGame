@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
+using System.Linq;
 using System.Collections.Generic;
 
 public class MapManager : MonoBehaviour {
@@ -45,6 +46,9 @@ public class MapManager : MonoBehaviour {
     }
 
     private void InstanceSpawnPlayers() {
+		System.Random rand = new System.Random ();
+		playerSpawnPoints = playerSpawnPoints.OrderBy (x => rand.Next ()).ToArray();
+
         players = new PlayerData[PlayerManager.PlayerCount];
         for (int i = 1; i <= PlayerManager.PlayerCount; i++) {
             players[i - 1] = SpawnPlayer(i);
@@ -115,6 +119,14 @@ public class MapManager : MonoBehaviour {
         dinoUI.gameCharacter = dinoCharacter;
         dinoUI.playerCamera = playerCamera;
         dinoUI.playerNumber = playerNumber;
+
+        //Ragdoll script
+        AnimToRagdoll ragdoll = dinoObject.GetComponent<AnimToRagdoll>();
+        HealthBar healthBar = dinoUI.GetComponentInChildren<HealthBar>();
+        if (ragdoll != null && healthBar != null) {
+            ragdoll.healthBar = healthBar.healthBar;
+            ragdoll.enabled = true;
+        }
 
         // Enable everything here. Enable the prefabs if they were disabled before.
         dinoObject.SetActive(true);
@@ -221,6 +233,10 @@ public class MapManager : MonoBehaviour {
     }
 
     private void SendOnMatchEnd(params PlayerData[] winners) {
+		foreach (var player in players) {
+			player.dinoCharacter.enabled = false;
+		}
+
         if (OnGameEnd != null) {
             OnGameEnd(winners, players);
         }

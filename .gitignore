@@ -32,3 +32,11 @@ sysinfo.txt
 *.apk
 *.unitypackage
 *.DS_Store
+
+CyberDino/Assets/Scenes/Enironmente_JRR/LightingData\.asset
+
+CyberDino/Assets/Scenes/Enironmente_JRR/LightingData\.asset\.meta
+
+CyberDino/Assets/Scenes/Enironmente_JRR/ReflectionProbe-0\.exr
+
+CyberDino/Assets/Scenes/Enironmente_JRR/ReflectionProbe-0\.exr\.meta

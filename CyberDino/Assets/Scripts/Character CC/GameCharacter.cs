@@ -21,7 +21,7 @@ public class GameCharacter : MonoBehaviour {
     public bool sprintInput = false;
     [HideInInspector]
     public bool jumpInput = false;
-    [HideInInspector]
+    //[HideInInspector]
     public Vector3 aimPoint = Vector3.zero;
     [HideInInspector]
     // You can only politely ask that you'd like the Dino to fire it's weapon.
@@ -135,11 +135,11 @@ public class GameCharacter : MonoBehaviour {
         // The static delegate is for anything that needs to know when a character has died.
         // The instance delegate is for any components that are attached to the character.
         if (currentHealth == 0) {
-            if (CharacterDeath != null) {
-                CharacterDeath(this);
-            }
             if (Death != null) {
                 Death();
+            }
+            if (CharacterDeath != null) {
+                CharacterDeath(this);
             }
         }
     }

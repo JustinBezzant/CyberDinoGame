@@ -24,6 +24,7 @@ public class CharacterDeath : MonoBehaviour {
 
         gameCharacter.enabled = false;
         gameCharacter.GetComponent<CharacterController>().enabled = false;
+        //gameCharacter.GetComponent<CapsuleCollider>().enabled = false;
 
         PlayerControl control = gameCharacter.GetComponent<PlayerControl>();
         if (control) {

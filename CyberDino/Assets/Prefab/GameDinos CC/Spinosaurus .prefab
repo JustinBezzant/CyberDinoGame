@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011017173060}
   - 95: {fileID: 95000012894055774}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Ragdoll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   - 59: {fileID: 59000013645181278}
   - 59: {fileID: 59000010405616034}
   - 59: {fileID: 59000011063281628}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Leg_04_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,7 +246,7 @@ GameObject:
   - 4: {fileID: 4000010702403422}
   - 33: {fileID: 33000013251401994}
   - 23: {fileID: 23000012490360496}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Toe_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,7 +328,7 @@ GameObject:
   - 4: {fileID: 4000013991673088}
   - 54: {fileID: 54000011712328252}
   - 65: {fileID: 65000014084467970}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Toe_01_FK_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +346,7 @@ GameObject:
   - 54: {fileID: 54000010635243640}
   - 65: {fileID: 65000013699664742}
   - 59: {fileID: 59000012141866876}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Arm_02_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -363,7 +363,7 @@ GameObject:
   - 4: {fileID: 4000013328164438}
   - 54: {fileID: 54000011037286768}
   - 65: {fileID: 65000011280813320}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Toe_01_FK_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +396,7 @@ GameObject:
   - 54: {fileID: 54000010757988128}
   - 65: {fileID: 65000013859220010}
   - 59: {fileID: 59000013721822464}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Arm_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -413,7 +413,7 @@ GameObject:
   - 4: {fileID: 4000010653579056}
   - 33: {fileID: 33000013901048122}
   - 23: {fileID: 23000011972700252}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Body_Armor_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -430,7 +430,7 @@ GameObject:
   - 4: {fileID: 4000010396158310}
   - 33: {fileID: 33000013079437058}
   - 23: {fileID: 23000012363316248}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Back_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -462,7 +462,7 @@ GameObject:
   - 4: {fileID: 4000013362497138}
   - 54: {fileID: 54000011353234700}
   - 65: {fileID: 65000013874797876}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Finger_03_FK_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +545,7 @@ GameObject:
   - 4: {fileID: 4000011758996034}
   - 54: {fileID: 54000013769667124}
   - 65: {fileID: 65000013108809462}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Head_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -562,7 +562,7 @@ GameObject:
   - 4: {fileID: 4000010219188466}
   - 54: {fileID: 54000013849360978}
   - 65: {fileID: 65000012386242140}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Finger_03_FK_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -734,7 +734,7 @@ GameObject:
   - 4: {fileID: 4000011687664900}
   - 54: {fileID: 54000013569022378}
   - 65: {fileID: 65000013420196596}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Finger_01_FK_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -751,7 +751,7 @@ GameObject:
   - 4: {fileID: 4000013897544380}
   - 33: {fileID: 33000011096058916}
   - 23: {fileID: 23000010752893536}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Neck_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -889,7 +889,7 @@ GameObject:
   - 4: {fileID: 4000013176903260}
   - 33: {fileID: 33000011476238032}
   - 23: {fileID: 23000014031018590}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Leg_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -921,7 +921,7 @@ GameObject:
   - 4: {fileID: 4000012477490160}
   - 54: {fileID: 54000011645723130}
   - 65: {fileID: 65000012096501286}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Toe_02_FK_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -938,7 +938,7 @@ GameObject:
   - 4: {fileID: 4000011928171694}
   - 33: {fileID: 33000013950512714}
   - 23: {fileID: 23000010596953844}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Finger_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -991,13 +991,14 @@ GameObject:
   - 143: {fileID: 143000010191441394}
   - 114: {fileID: 114000012458301614}
   - 114: {fileID: 114000012774175444}
+  - 114: {fileID: 114000014074248952}
   m_Layer: 0
   m_Name: 'Spinosaurus '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1000010746127010
 GameObject:
   m_ObjectHideFlags: 1
@@ -1009,7 +1010,7 @@ GameObject:
   - 54: {fileID: 54000014099083242}
   - 65: {fileID: 65000011489002772}
   - 59: {fileID: 59000010714739622}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Leg_03_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1101,7 +1102,7 @@ GameObject:
   - 4: {fileID: 4000012014680238}
   - 33: {fileID: 33000010053628946}
   - 23: {fileID: 23000010864670250}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Leg_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1210,7 +1211,7 @@ GameObject:
   - 4: {fileID: 4000010869916102}
   - 33: {fileID: 33000010268995362}
   - 23: {fileID: 23000011420672902}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Arm_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1228,7 +1229,7 @@ GameObject:
   - 54: {fileID: 54000013918857448}
   - 65: {fileID: 65000012606404944}
   - 59: {fileID: 59000010088085042}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Neck_03_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1305,7 +1306,7 @@ GameObject:
   - 4: {fileID: 4000012023926880}
   - 33: {fileID: 33000011638800946}
   - 23: {fileID: 23000013491176110}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1322,7 +1323,7 @@ GameObject:
   - 4: {fileID: 4000012689955788}
   - 33: {fileID: 33000012147980102}
   - 23: {fileID: 23000011307625096}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Tail_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1340,7 +1341,7 @@ GameObject:
   - 54: {fileID: 54000011321306782}
   - 65: {fileID: 65000010168342198}
   - 59: {fileID: 59000013533366740}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Tail_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1452,7 +1453,7 @@ GameObject:
   - 4: {fileID: 4000011185216826}
   - 33: {fileID: 33000010467239908}
   - 23: {fileID: 23000010076291196}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Arm_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1544,7 +1545,7 @@ GameObject:
   - 4: {fileID: 4000013999315884}
   - 33: {fileID: 33000010866695680}
   - 23: {fileID: 23000011083366704}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Toe_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1581,7 +1582,7 @@ GameObject:
   - 59: {fileID: 59000013851067814}
   - 59: {fileID: 59000012444272020}
   - 59: {fileID: 59000011847624324}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Leg_04_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1613,7 +1614,7 @@ GameObject:
   - 4: {fileID: 4000014183584008}
   - 33: {fileID: 33000014276320502}
   - 23: {fileID: 23000013045494668}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Neck_Armor_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1645,7 +1646,7 @@ GameObject:
   - 4: {fileID: 4000010667766374}
   - 33: {fileID: 33000010483071208}
   - 23: {fileID: 23000011682127784}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Toe_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1662,7 +1663,7 @@ GameObject:
   - 4: {fileID: 4000012142805360}
   - 33: {fileID: 33000011156864560}
   - 23: {fileID: 23000013098078810}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Arm_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1695,7 +1696,7 @@ GameObject:
   - 54: {fileID: 54000010019116322}
   - 65: {fileID: 65000011341305400}
   - 59: {fileID: 59000012002267020}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Leg_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1712,7 +1713,7 @@ GameObject:
   - 4: {fileID: 4000014044779718}
   - 33: {fileID: 33000012561034448}
   - 23: {fileID: 23000010653888378}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Arm_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1749,7 +1750,7 @@ GameObject:
   - 59: {fileID: 59000010959224158}
   - 59: {fileID: 59000014199138594}
   - 59: {fileID: 59000014100724326}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Arm_03_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1818,6 +1819,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1000011544095284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000012855761620}
+  - 114: {fileID: 114000013517629388}
+  m_Layer: 0
+  m_Name: BulletPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1000011546369264
 GameObject:
   m_ObjectHideFlags: 1
@@ -1828,7 +1845,7 @@ GameObject:
   - 4: {fileID: 4000011326355882}
   - 33: {fileID: 33000012872213336}
   - 23: {fileID: 23000013683095122}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Body_Armor_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1845,7 +1862,7 @@ GameObject:
   - 4: {fileID: 4000012207165406}
   - 54: {fileID: 54000012770759414}
   - 65: {fileID: 65000013495321120}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Finger_02_FK_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1875,7 +1892,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000011445795226}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Skeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1892,7 +1909,7 @@ GameObject:
   - 4: {fileID: 4000013583311954}
   - 54: {fileID: 54000010669892228}
   - 65: {fileID: 65000010341574094}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Toe_02_FK_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1954,7 +1971,7 @@ GameObject:
   - 4: {fileID: 4000010866001836}
   - 33: {fileID: 33000012866986596}
   - 23: {fileID: 23000013754841390}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Toe_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2081,7 +2098,7 @@ GameObject:
   - 4: {fileID: 4000012017052006}
   - 33: {fileID: 33000010234930520}
   - 23: {fileID: 23000013848911080}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Finger_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2113,7 +2130,7 @@ GameObject:
   - 4: {fileID: 4000013451253786}
   - 33: {fileID: 33000014175198700}
   - 23: {fileID: 23000014250996120}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Neck_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2132,7 +2149,7 @@ GameObject:
   - 65: {fileID: 65000012698133256}
   - 59: {fileID: 59000013711205294}
   - 59: {fileID: 59000013017087688}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: COG_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2149,7 +2166,7 @@ GameObject:
   - 4: {fileID: 4000011067798758}
   - 33: {fileID: 33000010850383804}
   - 23: {fileID: 23000011176159294}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Neck_Armor_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2260,7 +2277,7 @@ GameObject:
   - 4: {fileID: 4000013219310018}
   - 54: {fileID: 54000012979745172}
   - 65: {fileID: 65000010343080464}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Finger_02_FK_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2307,7 +2324,7 @@ GameObject:
   - 4: {fileID: 4000012217145368}
   - 33: {fileID: 33000010529218492}
   - 23: {fileID: 23000013808157060}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Leg_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2375,7 +2392,7 @@ GameObject:
   - 4: {fileID: 4000012850766620}
   - 33: {fileID: 33000013819548042}
   - 23: {fileID: 23000012354810486}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Tail_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2422,7 +2439,7 @@ GameObject:
   - 4: {fileID: 4000013527639014}
   - 33: {fileID: 33000012085286038}
   - 23: {fileID: 23000014077353356}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Neck_Armor_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2439,7 +2456,7 @@ GameObject:
   - 4: {fileID: 4000010799972110}
   - 54: {fileID: 54000012605569670}
   - 65: {fileID: 65000011155387540}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Jaw_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2457,7 +2474,7 @@ GameObject:
   - 54: {fileID: 54000011467550544}
   - 65: {fileID: 65000011713087740}
   - 59: {fileID: 59000012380953072}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Neck_02_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2629,7 +2646,7 @@ GameObject:
   - 4: {fileID: 4000011710418718}
   - 33: {fileID: 33000010750891570}
   - 23: {fileID: 23000010084154882}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Leg_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2680,7 +2697,7 @@ GameObject:
   - 4: {fileID: 4000012735027912}
   - 33: {fileID: 33000010414091666}
   - 23: {fileID: 23000012161545968}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Jaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2698,7 +2715,7 @@ GameObject:
   - 54: {fileID: 54000012931616268}
   - 65: {fileID: 65000010674118976}
   - 59: {fileID: 59000012737286290}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Leg_03_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2715,7 +2732,7 @@ GameObject:
   - 4: {fileID: 4000012605837096}
   - 33: {fileID: 33000012380956726}
   - 23: {fileID: 23000011708547720}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Toe_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2826,7 +2843,7 @@ GameObject:
   - 4: {fileID: 4000013749483542}
   - 33: {fileID: 33000013841517102}
   - 23: {fileID: 23000014091800060}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Body_Armor_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2942,7 +2959,7 @@ GameObject:
   - 54: {fileID: 54000012869500546}
   - 65: {fileID: 65000011130024938}
   - 59: {fileID: 59000010402009126}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Leg_02_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2976,7 +2993,7 @@ GameObject:
   - 65: {fileID: 65000010299814774}
   - 59: {fileID: 59000012359179614}
   - 59: {fileID: 59000010618871764}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Neck_04_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3041,7 +3058,7 @@ GameObject:
   - 54: {fileID: 54000011519098846}
   - 65: {fileID: 65000013704777318}
   - 59: {fileID: 59000012814665510}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Tail_02_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3073,7 +3090,7 @@ GameObject:
   - 4: {fileID: 4000012939743654}
   - 54: {fileID: 54000010384137904}
   - 65: {fileID: 65000011127786126}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Toe_03_FK_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3203,7 +3220,7 @@ GameObject:
   - 65: {fileID: 65000010426248442}
   - 59: {fileID: 59000011306264284}
   - 59: {fileID: 59000013457677826}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Hip_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3221,7 +3238,7 @@ GameObject:
   - 54: {fileID: 54000011852511270}
   - 65: {fileID: 65000012398236568}
   - 59: {fileID: 59000012088240552}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Arm_02_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3270,7 +3287,7 @@ GameObject:
   - 4: {fileID: 4000013411932862}
   - 33: {fileID: 33000011218817814}
   - 23: {fileID: 23000010974590264}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Finger_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3399,7 +3416,7 @@ GameObject:
   - 4: {fileID: 4000011691328558}
   - 54: {fileID: 54000013370509748}
   - 65: {fileID: 65000014116424638}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Tail_03_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3450,7 +3467,7 @@ GameObject:
   - 4: {fileID: 4000010220513898}
   - 33: {fileID: 33000011334552932}
   - 23: {fileID: 23000012347095396}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Arm_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3483,7 +3500,7 @@ GameObject:
   - 54: {fileID: 54000010167526322}
   - 65: {fileID: 65000010188120496}
   - 59: {fileID: 59000010737681666}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Leg_02_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3515,7 +3532,7 @@ GameObject:
   - 4: {fileID: 4000010940088070}
   - 33: {fileID: 33000012365826750}
   - 23: {fileID: 23000013068177032}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Neck_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3566,7 +3583,7 @@ GameObject:
   - 4: {fileID: 4000010250900436}
   - 33: {fileID: 33000012117374018}
   - 23: {fileID: 23000012510028538}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Body_Armor_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3598,7 +3615,7 @@ GameObject:
   - 4: {fileID: 4000010471095658}
   - 33: {fileID: 33000012528327176}
   - 23: {fileID: 23000010207428852}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Leg_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3760,7 +3777,7 @@ GameObject:
   - 4: {fileID: 4000013801951994}
   - 33: {fileID: 33000010140560484}
   - 23: {fileID: 23000011143220130}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Leg_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3810,7 +3827,7 @@ GameObject:
   - 4: {fileID: 4000014018052036}
   - 33: {fileID: 33000012370338042}
   - 23: {fileID: 23000014056802954}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Finger_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3857,7 +3874,7 @@ GameObject:
   - 4: {fileID: 4000012464051706}
   - 33: {fileID: 33000011998257224}
   - 23: {fileID: 23000014181133548}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Leg_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3971,7 +3988,7 @@ GameObject:
   - 59: {fileID: 59000011773396620}
   - 59: {fileID: 59000010470350452}
   - 59: {fileID: 59000012107953674}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Arm_03_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4004,7 +4021,7 @@ GameObject:
   - 54: {fileID: 54000014191492796}
   - 65: {fileID: 65000011943144430}
   - 59: {fileID: 59000013107754802}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Arm_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4037,7 +4054,7 @@ GameObject:
   - 54: {fileID: 54000010422859784}
   - 65: {fileID: 65000014124817310}
   - 59: {fileID: 59000013591219568}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Leg_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4055,7 +4072,7 @@ GameObject:
   - 54: {fileID: 54000011388407914}
   - 65: {fileID: 65000010316145082}
   - 59: {fileID: 59000011102238114}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Neck_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4087,7 +4104,7 @@ GameObject:
   - 4: {fileID: 4000014119938648}
   - 33: {fileID: 33000013944805894}
   - 23: {fileID: 23000013636425596}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Body_Armor_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4149,7 +4166,7 @@ GameObject:
   - 4: {fileID: 4000011410378250}
   - 33: {fileID: 33000010761281598}
   - 23: {fileID: 23000012753891384}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Leg_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4166,7 +4183,7 @@ GameObject:
   - 4: {fileID: 4000010523635298}
   - 33: {fileID: 33000014051011296}
   - 23: {fileID: 23000013031563368}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Front_Body_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4213,7 +4230,7 @@ GameObject:
   - 4: {fileID: 4000011864425738}
   - 33: {fileID: 33000011462775740}
   - 23: {fileID: 23000012254226014}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Body_Armor_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4340,7 +4357,7 @@ GameObject:
   - 4: {fileID: 4000012345854356}
   - 33: {fileID: 33000011610831840}
   - 23: {fileID: 23000014166969326}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Toe_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4357,7 +4374,7 @@ GameObject:
   - 4: {fileID: 4000012537654040}
   - 54: {fileID: 54000011202522858}
   - 65: {fileID: 65000013417857636}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Finger_01_FK_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4394,7 +4411,7 @@ GameObject:
   - 59: {fileID: 59000011009317278}
   - 59: {fileID: 59000012148746046}
   - 59: {fileID: 59000013541256968}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Spine_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4441,7 +4458,7 @@ GameObject:
   - 4: {fileID: 4000011263947886}
   - 33: {fileID: 33000013977762652}
   - 23: {fileID: 23000012915877514}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Finger_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4503,7 +4520,7 @@ GameObject:
   - 4: {fileID: 4000012239216264}
   - 33: {fileID: 33000012571690218}
   - 23: {fileID: 23000012485073630}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Body_Armor_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4535,7 +4552,7 @@ GameObject:
   - 4: {fileID: 4000013681873596}
   - 54: {fileID: 54000011463463052}
   - 65: {fileID: 65000012866179436}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Toe_03_FK_01_Jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4552,7 +4569,7 @@ GameObject:
   - 4: {fileID: 4000010552712638}
   - 33: {fileID: 33000013092136766}
   - 23: {fileID: 23000010789905332}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: L_Finger_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4693,7 +4710,7 @@ GameObject:
   - 4: {fileID: 4000013792030734}
   - 33: {fileID: 33000011532042344}
   - 23: {fileID: 23000011906962838}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Body_Armor_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4710,7 +4727,7 @@ GameObject:
   - 4: {fileID: 4000012267156498}
   - 33: {fileID: 33000010620375292}
   - 23: {fileID: 23000010605775814}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Tail_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4744,7 +4761,7 @@ GameObject:
   - 4: {fileID: 4000010010871890}
   - 33: {fileID: 33000012024492406}
   - 23: {fileID: 23000013683201716}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: R_Arm_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6885,12 +6902,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010735998168}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.63, y: 0, z: 0}
+  m_LocalPosition: {x: 15.4777565, y: 28.162336, z: -71.00442}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000011017173060}
   - {fileID: 4000013378457936}
+  - {fileID: 4000012855761620}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &4000012400773454
@@ -7302,6 +7320,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4000011691328558}
   m_RootOrder: 0
+--- !u!4 &4000012855761620
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011544095284}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000012382585312}
+  m_RootOrder: 2
 --- !u!4 &4000012869248200
 Transform:
   m_ObjectHideFlags: 1
@@ -14627,8 +14658,7 @@ MonoBehaviour:
   overheated: 0
   gun: {fileID: 114000013540614130}
   activeWeapon: {fileID: 0}
-  defaultWeapon: {fileID: 114000013230178234, guid: 9b57267662d9c0746817060ff83d2689,
-    type: 2}
+  defaultWeapon: {fileID: 114000014074248952}
   weaponList: []
   weaponsGroupObject: {fileID: 0}
   removedWeaponList: []
@@ -14684,6 +14714,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dino: {fileID: 114000012458301614}
   weakPoint: 0
+--- !u!114 &114000013517629388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011544095284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69cfe0016089d24ba1f17b3db76abbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPool: []
+  bulletPrefab: {fileID: 1000012344838288, guid: e2b7a7498e6f2cd4890ecc888d030172,
+    type: 2}
+  maxBullets: 10
 --- !u!114 &114000013540614130
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14745,6 +14790,27 @@ MonoBehaviour:
   maxHealth: 200
   debrisTime: 4
   coveredPart: {fileID: 4000014164684538}
+--- !u!114 &114000014074248952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010735998168}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a8b434dd22351845a2318c69385cd70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponName: Default
+  weaponID: Default CC
+  gameCharacter: {fileID: 114000012458301614}
+  damage: 100
+  usesAmmo: 0
+  maxAmmo: 0
+  currentAmmo: 0
+  bullets: {fileID: 114000013517629388}
+  fireDelay: 0.2
+  heatCostPerFiring: 10
 --- !u!114 &114000014263323808
 MonoBehaviour:
   m_ObjectHideFlags: 1

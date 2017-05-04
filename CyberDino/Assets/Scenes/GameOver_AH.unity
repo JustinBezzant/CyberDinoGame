@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692534, g: 0.49678725, b: 0.57508564, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692558, g: 0.49678743, b: 0.57508624, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -306,7 +306,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Game Over!
 --- !u!222 &613478420
@@ -964,6 +964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rematchScene: Enironmente_JRR
   mainMenu: OpenMenu_JR
+  winner: {fileID: 613478419}
 --- !u!95 &1914121418
 Animator:
   serializedVersion: 3

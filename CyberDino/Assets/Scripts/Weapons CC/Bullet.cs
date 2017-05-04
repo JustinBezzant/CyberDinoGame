@@ -11,23 +11,25 @@ public class Bullet : MonoBehaviour {
 
     private Transform tr;
     private Vector3 startPosition;
-    public float maxDistance = 400f;
+
+    private bool willDisable = false;
 
 	// Use this for initialization
 	void Awake () {
         damageDealer = GetComponent<DamageDealer>();
 	}
 
-    void Start() {
+    void OnEnable() {
         tr = transform;
         GetComponent<Rigidbody>().AddForce(tr.forward * speed, ForceMode.VelocityChange);
         startPosition = tr.position;
+        StartCoroutine(DisableAfterSeconds(2f));
+        willDisable = false;
     }
 
-    void FixedUpdate() {
-        if ((tr.position - startPosition).sqrMagnitude >= maxDistance * maxDistance) {
-            RemoveBullet();
-        }
+    private void OnDisable()
+    {
+        StopAllCoroutines();
     }
 
     void OnTriggerEnter(Collider collider) {
@@ -45,6 +47,22 @@ public class Bullet : MonoBehaviour {
     }
 
     void RemoveBullet() {
-        Destroy(this.gameObject);
+        if (!willDisable)
+        {
+            StartCoroutine(WaitToDisable());
+        }
+    }
+
+    IEnumerator DisableAfterSeconds(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        RemoveBullet();
+    }
+
+    IEnumerator WaitToDisable()
+    {
+        willDisable = true;
+        yield return null;
+        gameObject.SetActive(false);
     }
 }
